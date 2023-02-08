@@ -1,0 +1,171 @@
+h1{   
+    font-size: 3rem; 
+    line-height: 1.5;  
+    font-weight: 900;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+h2{
+    line-height: 3rem;
+}
+
+h1,h2,h3{
+    font-family: 'Roboto'; 
+}
+
+.container-fluid{
+    padding: 3% 5% 7%;
+}
+
+/* navbar */
+.navbar{
+    padding:0 2rem 2rem 2rem;
+}
+.navbar-brand{
+    font-weight: bold;
+     font-size: 2rem;
+}
+.nav-item{
+    padding: 18px;
+}
+.nav-link{
+    font-size: 1rem;
+    font-family: 'Roboto';
+
+}
+
+.download-button{
+    background-color: rgb(95, 45, 92);
+}
+
+body{
+    font-family: 'Roboto';
+}
+.topp{
+    background-image: url('wallpaper2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+}
+/* donwlaod buttons */
+/* title */
+
+.title-image{
+    width: 60%; 
+    position: absolute;
+    right: 30%;
+    background-color: none;
+}
+.custom{
+    position: relative;
+}
+
+p{
+    color: rgb(95, 45, 92);
+}
+
+/* features section */
+#features{
+    padding: 7% 5% 2%;
+    background-color: white;
+    position: relative; 
+    z-index: 1;
+    text-align: left;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.feature-box p{
+    color:grey;
+}
+
+#features img{
+    padding-bottom: 1rem;
+}
+
+/* icon */
+.icon-size{
+    margin-bottom: 1rem;
+}
+
+.icon-size:hover{
+    color: rgb(95, 45, 92);
+}
+
+/* offers */
+
+
+#offers{
+    padding: 2% 0%;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: white;
+}
+
+/* press */
+
+#press{
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 10px 20px;
+}
+
+/* Carousel item */
+
+.carousel-inner{
+    
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+/* cta */
+#cta{
+    text-align: left;
+    background-color:rgb(160, 160, 160);
+    padding: 3% 3%;
+    color: white;
+}
+
+#cta li{
+    list-style: none;
+}
+.cta-box{
+    padding: 2%;
+}
+
+.cta-box p{
+    color:rgb(255, 255, 255);
+}
+
+/* footer */
+#footer{
+    padding: 2%;
+    text-align: center;
+    background-color:rgb(160, 160, 160);
+    color: white;
+}
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 40%;
+    }
+}
+
